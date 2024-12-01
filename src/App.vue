@@ -1,4 +1,5 @@
 <template>
+  
   <div id="app" class="landing-page">
     <header class="header">
       <h1 class="brand-title">Brumkie 🍪</h1>
@@ -32,6 +33,7 @@
 
     <footer class="footer">
       <p>&copy; 2024 Brumkie 🍪 - Todos los derechos reservados.</p>
+    
     </footer>
 
     <!-- Burbuja de chat -->
@@ -97,7 +99,7 @@ export default {
       alert(`¡Has agregado "${product.name}" al carrito!`);
     },
     openChat() {
-      window.open("https://cm3kmtj8100030jjofqe3dn7y.zapier.app", "_blank");
+      window.open("https://brumkie.zapier.app", "_blank");
     },
   },
 };
